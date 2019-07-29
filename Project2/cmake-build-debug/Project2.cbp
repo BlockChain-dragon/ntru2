@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zz/app/hashnet/ntru/Project2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zz/app/hashnet/ntru/Project2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zz/app/hashnet/ntru/Project2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project2">
+				<Option output="/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Project2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zz/app/hashnet/ntru/Project2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zz/app/hashnet/ntru/Project2/Project2"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Project2/fast">
+				<Option output="/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Project2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zz/app/hashnet/ntru/Project2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zz/app/hashnet/ntru/Project2/Project2"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Project2/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/Project2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/DGS.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/NTT.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/NTT.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/PQCgenKAT_sign.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/api.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/crypto_hash_sha512.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/crypto_hash_sha512.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/crypto_stream.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/crypto_stream_salsa20.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/fastrandombytes.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/fastrandombytes.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/misc.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/ntru.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/packing.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/packing.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/param.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/param.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/poly.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/poly.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/pqNTRUSign.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/pqNTRUSign.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/project2.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/rng.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/rng.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/shred.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/shred.h">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/Project2/sign.c">
+			<Option target="Project2"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/Project2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,68 @@
+﻿  crypto_hash_sha512.c
+  crypto_stream.c
+  DGS.c
+  fastrandombytes.c
+  misc.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\misc.c(27): warning C4244: “函数”: 从“const int64_t”转换到“int”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\misc.c(28): warning C4244: “函数”: 从“const int64_t”转换到“int”，可能丢失数据
+  NTT.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(40): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(90): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(146): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“int64_t”
+  c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(146): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(146): note: 请考虑在格式字符串中使用“%I64d”
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(146): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 2 拥有了类型“int64_t”
+  c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(146): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(146): note: 请考虑在格式字符串中使用“%I64d”
+  packing.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\packing.c(98): warning C4244: “+=”: 从“const int64_t”转换到“unsigned char”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\packing.c(248): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\packing.c(279): warning C4114: 多次使用同一类型限定符
+  param.c
+  poly.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\poly.c(31): warning C4244: “+=”: 从“const int64_t”转换到“int”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\poly.c(101): warning C4101: “i”: 未引用的局部变量
+c:\users\yliex\source\repos\ntrusign\ntrusign\poly.c(147): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\yliex\source\repos\ntrusign\ntrusign\poly.c(175): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\yliex\source\repos\ntrusign\ntrusign\poly.c(212): warning C4018: “<”: 有符号/无符号不匹配
+  pqNTRUSign.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\poly.h(68): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\poly.h(73): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(36): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(52): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(75): warning C4244: “函数”: 从“int64_t”转换到“int”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(76): warning C4244: “函数”: 从“int64_t”转换到“int”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(95): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(166): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(176): warning C4018: “>”: 有符号/无符号不匹配
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(179): warning C4244: “函数”: 从“int64_t”转换到“int”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(209): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(265): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(317): warning C4244: “函数”: 从“const uint16_t”转换到“const uint8_t”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.c(405): warning C4114: 多次使用同一类型限定符
+  ntrusign.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntrusign.c(45): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntrusign.c(46): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntrusign.c(50): warning C4047: “return”:“unsigned char *”与“int”的间接级别不同
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntrusign.c(86): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntrusign.c(98): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+  rng.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\rng.c(76): warning C4018: “<=”: 有符号/无符号不匹配
+c:\users\yliex\source\repos\ntrusign\ntrusign\rng.c(180): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+  shred.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\shred.c(33): warning C4013: “printf”未定义；假设外部返回 int
+  sign.c
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.h(32): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.h(43): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.h(59): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\pqntrusign.h(71): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\packing.h(30): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\packing.h(51): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\ntrusign\ntrusign\sign.c(115): warning C4244: “函数”: 从“unsigned __int64”转换到“const size_t”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\sign.c(117): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\sign.c(89): warning C4101: “temp”: 未引用的局部变量
+c:\users\yliex\source\repos\ntrusign\ntrusign\sign.c(174): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+c:\users\yliex\source\repos\ntrusign\ntrusign\sign.c(180): warning C4244: “函数”: 从“unsigned __int64”转换到“const size_t”，可能丢失数据
+  正在生成代码...
+c:\users\yliex\source\repos\ntrusign\ntrusign\ntt.c(124): warning C4172: 返回局部变量或临时变量的地址: array
+  ntrusign.vcxproj -> C:\Users\yLIEx\source\repos\ntrusign\Debug\ntrusign.dll

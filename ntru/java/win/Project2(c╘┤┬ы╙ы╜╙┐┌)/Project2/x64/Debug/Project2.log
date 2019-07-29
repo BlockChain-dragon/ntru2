@@ -1,0 +1,82 @@
+﻿  crypto_sha3_512.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\crypto_sha3_512.c(68): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\crypto_sha3_512.c(77): warning C4090: “=”: 不同的“const”限定符
+  crypto_stream.c
+  DGS.c
+  fastrandombytes.c
+  misc.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\misc.c(27): warning C4244: “函数”: 从“const int64_t”转换到“int”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\misc.c(28): warning C4244: “函数”: 从“const int64_t”转换到“int”，可能丢失数据
+  NTT.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(40): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(90): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(146): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 1 拥有了类型“int64_t”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(146): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(146): note: 请考虑在格式字符串中使用“%Id”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(146): note: 请考虑在格式字符串中使用“%I64d”
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(146): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 2 拥有了类型“int64_t”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(146): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(146): note: 请考虑在格式字符串中使用“%Id”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(146): note: 请考虑在格式字符串中使用“%I64d”
+  packing.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\packing.c(98): warning C4244: “+=”: 从“const int64_t”转换到“unsigned char”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\packing.c(248): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\packing.c(279): warning C4114: 多次使用同一类型限定符
+  param.c
+  poly.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.c(31): warning C4244: “+=”: 从“const int64_t”转换到“int”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.c(101): warning C4101: “i”: 未引用的局部变量
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.c(147): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.c(175): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.c(212): warning C4018: “<”: 有符号/无符号不匹配
+  PQCgenKAT_sign.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqcgenkat_sign.c(65): warning C4101: “mmm”: 未引用的局部变量
+  pqNTRUSign.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.h(68): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.h(73): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(36): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(52): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(75): warning C4244: “函数”: 从“int64_t”转换到“int”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(76): warning C4244: “函数”: 从“int64_t”转换到“int”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(95): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(166): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(176): warning C4018: “>”: 有符号/无符号不匹配
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(179): warning C4244: “函数”: 从“int64_t”转换到“int”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(209): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(265): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(317): warning C4244: “函数”: 从“const uint16_t”转换到“const uint8_t”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.c(405): warning C4114: 多次使用同一类型限定符
+  project2.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(45): warning C4098: “Java_ntrusign_Ntrusign_InitialKey”:“void”函数返回值
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(79): warning C4047: “return”:“jbyteArray”与“int”的间接级别不同
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(81): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(81): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(81): note: 请考虑在格式字符串中使用“%Id”
+  c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(81): note: 请考虑在格式字符串中使用“%I64d”
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(83): warning C4244: “函数”: 从“unsigned __int64”转换到“jsize”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(84): warning C4244: “函数”: 从“unsigned __int64”转换到“jsize”，可能丢失数据
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\project2.c(179): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  rng.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\rng.c(76): warning C4018: “<=”: 有符号/无符号不匹配
+  sha3.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\sha3.c(204): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  shred.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.h(68): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\poly.h(73): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\shred.c(38): warning C4013: “printf”未定义；假设外部返回 int
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\shred.c(55): warning C4098: “Secret2Public”:“void”函数返回值
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\shred.c(57): warning C4013: “memset”未定义；假设外部返回 int
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\shred.c(65): warning C4013: “unpack_secret_key”未定义；假设外部返回 int
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\shred.c(66): warning C4013: “pack_public_key”未定义；假设外部返回 int
+  sign.c
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.h(32): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.h(43): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.h(59): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\pqntrusign.h(71): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\packing.h(30): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\packing.h(51): warning C4114: 多次使用同一类型限定符
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\sign.c(89): warning C4101: “temp”: 未引用的局部变量
+  正在生成代码...
+c:\users\asu\desktop\yx\java\win\project2(c源码与接口)\project2\ntt.c(124): warning C4172: 返回局部变量或临时变量的地址: array
+    正在创建库 C:\Users\asu\Desktop\yx\java\win\Project2(c源码与接口)\x64\Debug\Project2.lib 和对象 C:\Users\asu\Desktop\yx\java\win\Project2(c源码与接口)\x64\Debug\Project2.exp
+  Project2.vcxproj -> C:\Users\asu\Desktop\yx\java\win\Project2(c源码与接口)\x64\Debug\Project2.dll

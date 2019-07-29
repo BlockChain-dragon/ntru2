@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="reference_implementation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reference_implementation">
+				<Option output="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/cmake-build-debug/reference_implementation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common"/>
+					<Add directory="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024"/>
+					<Add directory="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 reference_implementation"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reference_implementation/fast">
+				<Option output="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/cmake-build-debug/reference_implementation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common"/>
+					<Add directory="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024"/>
+					<Add directory="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 reference_implementation/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference\ implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024/PQCgenKAT_sign.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024/api.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024/sign.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024/PQCgenKAT_sign.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024/api.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024/sign.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/DGS.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/NTT.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/NTT.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_stream.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_stream_salsa20.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/fastrandombytes.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/fastrandombytes.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/misc.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/packing.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/packing.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/poly.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/poly.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/pqNTRUSign.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/pqNTRUSign.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/rng.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/rng.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/shred.c">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/shred.h">
+			<Option target="reference_implementation"/>
+		</Unit>
+		<Unit filename="/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

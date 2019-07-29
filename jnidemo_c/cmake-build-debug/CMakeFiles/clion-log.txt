@@ -1,0 +1,20 @@
+/home/zz/software/clion-2018.1.5/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" /home/zz/app/hashnet/ntru/jnidemo_c
+-- The C compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+CMake Error: CMake can not determine linker language for target: jnidemo_c
+CMake Error: Cannot determine link language for target "jnidemo_c".
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+
+
+-- Build files have been written to: /home/zz/app/hashnet/ntru/jnidemo_c/cmake-build-debug
+Unable to determine product file path for target jnidemo_c. Running and debugging will be unavailable.

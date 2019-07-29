@@ -1,0 +1,19 @@
+﻿  sign.c
+c:\users\yliex\source\repos\project2\project2\pqntrusign.h(32): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\project2\project2\pqntrusign.h(43): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\project2\project2\pqntrusign.h(59): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\project2\project2\pqntrusign.h(71): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\project2\project2\packing.h(30): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\project2\project2\packing.h(51): warning C4114: 多次使用同一类型限定符
+c:\users\yliex\source\repos\project2\project2\sign.c(116): warning C4244: “函数”: 从“unsigned __int64”转换到“const size_t”，可能丢失数据
+c:\users\yliex\source\repos\project2\project2\sign.c(118): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+c:\users\yliex\source\repos\project2\project2\sign.c(90): warning C4101: “temp”: 未引用的局部变量
+c:\users\yliex\source\repos\project2\project2\sign.c(174): warning C4244: “函数”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+c:\users\yliex\source\repos\project2\project2\sign.c(180): warning C4244: “函数”: 从“unsigned __int64”转换到“const size_t”，可能丢失数据
+rng.obj : error LNK2019: 无法解析的外部符号 _EVP_EncryptInit_ex，该符号在函数 _AES256_ECB 中被引用
+rng.obj : error LNK2019: 无法解析的外部符号 _EVP_EncryptUpdate，该符号在函数 _AES256_ECB 中被引用
+rng.obj : error LNK2019: 无法解析的外部符号 _EVP_CIPHER_CTX_new，该符号在函数 _AES256_ECB 中被引用
+rng.obj : error LNK2019: 无法解析的外部符号 _EVP_CIPHER_CTX_free，该符号在函数 _AES256_ECB 中被引用
+rng.obj : error LNK2019: 无法解析的外部符号 _EVP_aes_256_ecb，该符号在函数 _AES256_ECB 中被引用
+rng.obj : error LNK2019: 无法解析的外部符号 _ERR_print_errors_fp，该符号在函数 _handleErrors 中被引用
+C:\Users\yLIEx\source\repos\Project2\Debug\Project2.exe : fatal error LNK1120: 6 个无法解析的外部命令

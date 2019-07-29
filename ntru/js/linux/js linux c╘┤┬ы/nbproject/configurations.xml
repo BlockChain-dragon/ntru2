@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+      <itemPath>NTT.h</itemPath>
+      <itemPath>api.h</itemPath>
+      <itemPath>crypto_hash_sha512.h</itemPath>
+      <itemPath>crypto_stream_salsa20.h</itemPath>
+      <itemPath>fastrandombytes.h</itemPath>
+      <itemPath>getout.h</itemPath>
+      <itemPath>packing.h</itemPath>
+      <itemPath>param.h</itemPath>
+      <itemPath>poly.h</itemPath>
+      <itemPath>pqNTRUSign.h</itemPath>
+      <itemPath>rng.h</itemPath>
+      <itemPath>sha3.h</itemPath>
+      <itemPath>shred.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <itemPath>DGS.c</itemPath>
+      <itemPath>NTT.c</itemPath>
+      <itemPath>crypto_sha3_512.c</itemPath>
+      <itemPath>crypto_stream.c</itemPath>
+      <itemPath>fastrandombytes.c</itemPath>
+      <itemPath>helloworld.c</itemPath>
+      <itemPath>misc.c</itemPath>
+      <itemPath>packing.c</itemPath>
+      <itemPath>param.c</itemPath>
+      <itemPath>poly.c</itemPath>
+      <itemPath>pqNTRUSign.c</itemPath>
+      <itemPath>rng.c</itemPath>
+      <itemPath>sha3.c</itemPath>
+      <itemPath>shred.c</itemPath>
+      <itemPath>sign.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="资源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>/home/amadeus/NetBeansProjects/helloworld</Elem>
+    <Elem>/home/amadeus/NetBeansProjects/JavaApplication1</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/jdk/jdk1.8/include</pElem>
+            <pElem>/usr/lib/jdk/jdk1.8/include/linux</pElem>
+          </incDir>
+          <incFile>
+            <pElem>/usr/lib/jdk/jdk1.8/include/jni.h</pElem>
+            <pElem>/usr/local/include/openssl/evp.h</pElem>
+          </incFile>
+        </cTool>
+        <linkerTool>
+          <output>dist/libntrusign.so</output>
+          <commandLine>-lm -lcrypto</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="DGS.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="NTT.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="NTT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crypto_hash_sha512.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crypto_sha3_512.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="crypto_stream.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="crypto_stream_salsa20.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fastrandombytes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="fastrandombytes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="getout.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="helloworld.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="misc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="packing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="packing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="param.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="param.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="poly.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="poly.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pqNTRUSign.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pqNTRUSign.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rng.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rng.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sha3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sha3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shred.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shred.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sign.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="DGS.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="NTT.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="NTT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crypto_hash_sha512.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="crypto_sha3_512.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="crypto_stream.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="crypto_stream_salsa20.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fastrandombytes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="fastrandombytes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="getout.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="helloworld.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="misc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="packing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="packing.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="param.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="param.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="poly.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="poly.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pqNTRUSign.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="pqNTRUSign.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="rng.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="rng.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sha3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="sha3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shred.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shred.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="sign.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

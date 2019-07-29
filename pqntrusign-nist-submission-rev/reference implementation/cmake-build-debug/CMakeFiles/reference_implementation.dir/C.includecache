@@ -1,0 +1,228 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024/PQCgenKAT_sign.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+../common/rng.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/rng.h
+api.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024/api.h
+time.h
+-
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024/api.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024/sign.c
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+../common/pqNTRUSign.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/pqNTRUSign.h
+../common/param.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+api.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Gaussian-1024/api.h
+../common/crypto_hash_sha512.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.h
+../common/packing.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/packing.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024/PQCgenKAT_sign.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+../common/rng.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/rng.h
+api.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024/api.h
+time.h
+-
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024/api.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024/sign.c
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+../common/pqNTRUSign.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/pqNTRUSign.h
+../common/param.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+api.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/Uniform-1024/api.h
+../common/crypto_hash_sha512.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.h
+../common/packing.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/packing.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/DGS.c
+stdlib.h
+-
+stdint.h
+-
+math.h
+-
+fastrandombytes.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/fastrandombytes.h
+crypto_hash_sha512.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/NTT.c
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+NTT.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/NTT.h
+param.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/NTT.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.c
+crypto_hash_sha512.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_stream.c
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_stream_salsa20.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/fastrandombytes.c
+stdlib.h
+-
+stdint.h
+-
+crypto_stream_salsa20.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_stream_salsa20.h
+rng.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/rng.h
+shred.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/shred.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/fastrandombytes.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/misc.c
+stdint.h
+-
+stdlib.h
+-
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/packing.c
+stdint.h
+-
+string.h
+-
+param.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/packing.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.c
+string.h
+-
+param.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+stdint.h
+-
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/poly.c
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+fastrandombytes.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/fastrandombytes.h
+shred.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/shred.h
+crypto_hash_sha512.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.h
+param.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/poly.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/pqNTRUSign.c
+stdio.h
+-
+stdlib.h
+-
+stdint.h
+-
+math.h
+-
+string.h
+-
+param.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+poly.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/poly.h
+fastrandombytes.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/fastrandombytes.h
+crypto_hash_sha512.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/crypto_hash_sha512.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/pqNTRUSign.h
+param.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/param.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/rng.c
+string.h
+-
+rng.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/rng.h
+openssl/conf.h
+-
+openssl/evp.h
+-
+openssl/err.h
+-
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/rng.h
+stdio.h
+-
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/shred.c
+stdlib.h
+-
+shred.h
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/shred.h
+
+/home/zz/app/hashnet/ntru/pqntrusign-nist-submission-rev/reference implementation/common/shred.h
+
